@@ -1,0 +1,16 @@
+.txtBox{
+    height:40px;
+    font-size:40px;
+    border:none;
+    border-bottom:0.5px solid black;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    caret-color:#000000;
+    font-weight:600;
+  }
+
+
+  .flex{
+    display:flex;
+    margin:25px;
+  }
