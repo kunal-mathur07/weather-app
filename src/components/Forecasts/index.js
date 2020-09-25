@@ -31,6 +31,7 @@ class Forecast extends Component{
         const {data} = this.props;
         return data.map((item)=>{
             const image = this.renderImage(item.weather[0].description);
+            item.dt_txt = item.dt_txt.replace(' ','T');
             const date = getDate(item.dt_txt);
             const time = getTime(item.dt_txt);
             return(

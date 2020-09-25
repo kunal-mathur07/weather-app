@@ -29,7 +29,7 @@ class App extends Component {
         })
     }catch(e){
         this.setState({
-           error: 'There is some problem with the api call'
+           error: 'No results found for the city'
         })
     }
 
